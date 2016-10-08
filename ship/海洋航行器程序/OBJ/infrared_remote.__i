@@ -1,0 +1,5 @@
+-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\USER -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\ST_LIB\inc -I..\MY_LIB\inc -I..\CMSIS 
+-I F:\software\keil4.16\ARM\RV31\INC 
+-I F:\software\keil4.16\ARM\CMSIS\Include 
+-I F:\software\keil4.16\ARM\Inc\ST\STM32F10x 
+-DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD_VL -o "..\OBJ\infrared_remote.o" --omf_browse "..\OBJ\infrared_remote.crf" --depend "..\OBJ\infrared_remote.d" "..\MY_LIB\src\Infrared_Remote.c"
